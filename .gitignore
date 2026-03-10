@@ -1,32 +1,34 @@
-# Prerequisites
-*.d
+# Build directories
+obj/
+bin/
 
 # Compiled Object files
-*.slo
-*.lo
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# Executables
+*.exe
+*.out
+*.app
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# Precompiled Headers
+*.gch
+*.pch
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
